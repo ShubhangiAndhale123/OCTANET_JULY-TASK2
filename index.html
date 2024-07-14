@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To-Do List</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>To-Do List</h1>
+	<input type="text" id="task-input" placeholder="Enter task">
+	<button id="add-task-btn">Add Task</button>
+	<ul id="task-list"></ul>
+
+	<!-- Edit task modal -->
+	<div id="edit-modal" style="display:none;">
+		<input type="text" id="edit-task-input" placeholder="Edit task">
+		<button id="save-edit-btn">Save</button>
+		<button id="cancel-edit-btn">Cancel</button>
+	</div>
+
+	<!-- Note picture modal -->
+	<div id="note-modal" style="display:none;">
+		<img id="note-pic" src="">
+		<button id="close-note-btn">Close</button>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
